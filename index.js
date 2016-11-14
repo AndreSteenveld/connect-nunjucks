@@ -104,14 +104,7 @@ module.exports = function(opt) {
         ext: ext,
         currentPath: reqPath
       }), {
-        watch: false,
-        // TODO add configurable tags
-        tags: {
-          blockStart: '<%',
-          blockEnd: '%>',
-          commentStart: '<#',
-          commentEnd: '#>'
-        }
+        watch: false
       });
 
       for (var filterName in filters) {
