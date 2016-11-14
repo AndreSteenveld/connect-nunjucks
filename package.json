@@ -24,6 +24,6 @@
   "homepage": "https://github.com/pkyeck/connect-nunjucks",
   "dependencies": {
     "lodash": "^3.9.3",
-    "nunjucks": "^1.3.4"
+    "nunjucks": "^2.5.2"
   }
 }
